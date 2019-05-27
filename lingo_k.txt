@@ -1,0 +1,232 @@
+!此文件为lingo输入数据文件，"!"为注释行;
+!数据格式：工厂产量or建设总费用;
+!单位：	万辆or万元;
+
+!index:1 city:运城;
+4176.7383
+!index:2 city:运城;
+4177.4398
+!index:3 city:北京;
+7736.6825
+!index:4 city:北京;
+8754.0490
+!index:5 city:廊坊;
+36692.0339
+!index:6 city:廊坊;
+37862.6478
+!index:7 city:天津;
+5941.7469
+!index:8 city:天津;
+5452.0754
+!index:9 city:唐山;
+3692.1430
+!index:10 city:唐山;
+3695.4248
+!index:11 city:秦皇岛;
+3680.1358
+!index:12 city:秦皇岛;
+4914.8171
+!index:13 city:沧州;
+4560.3233
+!index:14 city:沧州;
+4560.3233
+!index:15 city:大连;
+6268.7918
+!index:16 city:大连;
+5036.7136
+!index:17 city:滨州;
+5123.2247
+!index:18 city:滨州;
+4836.7720
+!index:19 city:潍坊;
+5811.4889
+!index:20 city:潍坊;
+5812.0680
+!index:21 city:烟台;
+5521.2396
+!index:22 city:烟台;
+5520.9308
+!index:23 city:聊城;
+4966.6567
+!index:24 city:聊城;
+4966.5608
+!index:25 city:安阳;
+5291.8694
+!index:26 city:安阳;
+5845.3414
+!index:27 city:郑州;
+6316.9907
+!index:28 city:郑州;
+5244.8198
+!index:29 city:济宁;
+4876.6067
+!index:30 city:济宁;
+4866.9181
+!index:31 city:日照;
+4678.5081
+!index:32 city:日照;
+4940.5415
+!index:33 city:青岛;
+4903.7033
+!index:34 city:青岛;
+5291.4677
+!index:35 city:商丘;
+4893.0133
+!index:36 city:商丘;
+5456.7862
+!index:37 city:徐州;
+4395.0580
+!index:38 city:徐州;
+5162.2711
+!index:39 city:连云港;
+4589.7758
+!index:40 city:连云港;
+4466.0264
+!index:41 city:淮北;
+5066.4124
+!index:42 city:淮北;
+5075.1546
+!index:43 city:周口;
+4966.9588
+!index:44 city:周口;
+4966.5876
+!index:45 city:南阳;
+5486.3751
+!index:46 city:南阳;
+5438.3273
+!index:47 city:驻马店;
+4836.5680
+!index:48 city:驻马店;
+4771.6548
+!index:49 city:阜阳;
+4460.1866
+!index:50 city:阜阳;
+4395.0459
+!index:51 city:淮安;
+4351.3112
+!index:52 city:淮安;
+5192.2412
+!index:53 city:盐城;
+4966.6818
+!index:54 city:盐城;
+4733.1419
+!index:55 city:淮南;
+3679.5126
+!index:56 city:淮南;
+3692.9757
+!index:57 city:随州;
+5343.2993
+!index:58 city:随州;
+4453.6157
+!index:59 city:六安;
+4460.0278
+!index:60 city:六安;
+4455.1054
+!index:61 city:南京;
+5357.0174
+!index:62 city:南京;
+6269.6848
+!index:63 city:杭州;
+6929.9039
+!index:64 city:杭州;
+7036.8429
+!index:65 city:宣城;
+4405.0206
+!index:66 city:宣城;
+4406.4250
+!index:67 city:铜陵;
+4646.6878
+!index:68 city:铜陵;
+4560.0270
+!index:69 city:安庆;
+4836.0742
+!index:70 city:安庆;
+4758.6889
+!index:71 city:武汉;
+5357.4608
+!index:72 city:武汉;
+4820.9932
+!index:73 city:荆州;
+4539.7903
+!index:74 city:荆州;
+4540.5166
+!index:75 city:黄石;
+4531.1109
+!index:76 city:黄石;
+4551.1603
+!index:77 city:宁波;
+7113.1984
+!index:78 city:宁波;
+6396.8586
+!index:79 city:台州;
+7245.1940
+!index:80 city:台州;
+7568.0507
+!index:81 city:温州;
+8208.2776
+!index:82 city:温州;
+7277.1264
+!index:83 city:金华;
+4759.2314
+!index:84 city:金华;
+5098.6153
+!index:85 city:上饶;
+4408.0785
+!index:86 city:上饶;
+4082.8291
+!index:87 city:南昌;
+4453.1445
+!index:88 city:南昌;
+4804.1667
+!index:89 city:宜春;
+4552.3292
+!index:90 city:宜春;
+4551.0532
+!index:91 city:长沙;
+4850.4790
+!index:92 city:长沙;
+4870.8053
+!index:93 city:永州;
+4455.3124
+!index:94 city:永州;
+4746.9248
+!index:95 city:吉安;
+3672.3431
+!index:96 city:吉安;
+3684.6030
+!index:97 city:南平;
+4379.0442
+!index:98 city:南平;
+4418.6116
+!index:99 city:宁德;
+5269.2421
+!index:100 city:宁德;
+5563.1943
+!index:101 city:莆田;
+5288.9636
+!index:102 city:莆田;
+5116.2505
+!index:103 city:龙岩;
+4152.4844
+!index:104 city:龙岩;
+4863.0700
+!index:105 city:赣州;
+4255.8604
+!index:106 city:赣州;
+4255.9401
+!index:107 city:汕尾;
+5187.8762
+!index:108 city:汕尾;
+5196.2940
+!index:109 city:广州;
+5941.3864
+!index:110 city:广州;
+7373.6779
+!index:111 city:韶关;
+4478.9630
+!index:112 city:韶关;
+4585.7937
+!index:113 city:贺州;
+4616.9825
+!index:114 city:贺州;
+4621.6724
