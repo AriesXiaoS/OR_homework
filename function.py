@@ -465,8 +465,8 @@ if __name__=='__main__':
     #large mid small
     
     #mark_the_cities('Final_city.png','the_city.txt',creat_new=True)
-    #deal_with_lingo_data('add_city.txt',write_type='a',start_number=115)
-    mark_the_cities('All_city_1year.png','all_city.txt',creat_new=True)
+    #deal_with_lingo_data('landPrice.txt',write_type='w',start_number=1)
+    mark_the_cities('All_city_50year_limited_area.png','All_city_50year_limited_area.txt',creat_new=True)
 
     print('all finished')
     pass
