@@ -401,6 +401,12 @@ def deal_with_lingo_data(landPrice_txt):
         n=n+1
     _write_lingo_data('lingo_k.txt',lingo_k)
     #lingo_k为每万辆的工程建设成本
+    fp=open('all_city.txt','w')
+    city_set=set(city_list)
+    for city in city_set:
+        fp.write('{}\n'.format(city))
+    fp.close()
+    
 
 def _write_lingo_data(data_name_txt,python_data):
     """
@@ -449,6 +455,8 @@ def _write_lingo_cij(data_name_txt,city_list):
     fp.close()
 ########################################################
 
+
+
 ########################################################
             
 ########################################################
@@ -457,7 +465,8 @@ if __name__=='__main__':
     mark_size='mid'
     #large mid small
     
-    mark_the_cities('Final_city.png','02面积无限制/the_city.txt',creat_new=True)
+    #mark_the_cities('Final_city.png','the_city.txt',creat_new=True)
     #deal_with_lingo_data('landPrice.txt')
+    mark_the_cities('All_city.png','all_city.txt',creat_new=True)
 
 
