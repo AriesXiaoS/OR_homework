@@ -48,7 +48,6 @@ def _one_plan(my_origin,my_destination,strategy_i):
         所以所有tolls*5
     """
 
-
 def plan(origin_city,destination_city,print_it=False,need_route=False):
     """
     ###
@@ -143,7 +142,6 @@ def _cv_map(name):
     cv2.waitKey()
     cv2.destroyAllWindows()    
     
-    
 def show_map(factory_str='',show_it=False):
     """
     ###
@@ -214,8 +212,6 @@ def show_map(factory_str='',show_it=False):
     if show_it==True:
         _cv_map(map_name)
     
-
-
 def _get_coordinate(city_name,print_it=False):
     """
     city_name为中午 字符串形式
@@ -232,7 +228,6 @@ def _get_coordinate(city_name,print_it=False):
     if print_it==True:
         print('{}的经纬度为：{}'.format(city_name,data['geocodes'][0]['location']))
     return(data['geocodes'][0]['location'])
-
 
 ########################################################
 
@@ -257,7 +252,6 @@ def _get_one_city_mark(city_name_str):
     fp.close()
     
     #_cv_map('one_city_mark.jpg') 
-    
     
 def _is_right_color(frame,rgb=np.array([7,252,8])):
     """
@@ -343,7 +337,7 @@ def mark_the_cities(pic_name,city_txt,creat_new=False):
     city_list=_get_all_city(city_txt)
     _mark_all_city(city_list,pic_name)
 ########################################################
-def deal_with_lingo_data(landPrice_txt):
+def deal_with_lingo_data(landPrice_txt,write_type='w'):
     """
     ###
     将landPrice.txt文件中的城市及地价和面积做成lingo可以读取的txt文件格式
@@ -389,9 +383,9 @@ def deal_with_lingo_data(landPrice_txt):
             construction_price.append((one_city[0],price))
             city_list.append(one_city[0])
         ##
-    _write_lingo_data('lingo_factory_supply.txt',factory_supply)
-    _write_lingo_data('lingo_construction_price.txt',construction_price)
-    #_write_lingo_cij('lingo_transportation_cij.txt',city_list)
+    _write_lingo_data('lingo_factory_supply.txt',factory_supply,write_type=write_type)
+    _write_lingo_data('lingo_construction_price.txt',construction_price,write_type=write_type)
+    _write_lingo_cij('lingo_transportation_cij.txt',city_list,write_type=write_type)
     n=0
     lingo_k=[]
     while(n<len(factory_supply)):
@@ -399,7 +393,7 @@ def deal_with_lingo_data(landPrice_txt):
         k='{:.4f}'.format(k)
         lingo_k.append((construction_price[n][0],k))
         n=n+1
-    _write_lingo_data('lingo_k.txt',lingo_k)
+    _write_lingo_data('lingo_k.txt',lingo_k,write_type=write_type)
     #lingo_k为每万辆的工程建设成本
     fp=open('all_city.txt','w')
     city_set=set(city_list)
@@ -408,22 +402,28 @@ def deal_with_lingo_data(landPrice_txt):
     fp.close()
     
 
-def _write_lingo_data(data_name_txt,python_data):
+def _write_lingo_data(data_name_txt,python_data,write_type='w'):
     """
-    
     python_data为列表，每个列表元素为(城市名,data)
     """
-    fp=open(data_name_txt,'w')
-    fp.write('!此文件为lingo输入数据文件，"!"为注释行;\n!数据格式：工厂产量or建设总费用;\n!单位：\t万辆or万元;\n\n')
+    if write_type=='w':
+        fp=open(data_name_txt,'w')
+        fp.write('!此文件为lingo输入数据文件，"!"为注释行;\n!数据格式：工厂产量or建设总费用;\n!单位：\t万辆or万元;\n\n')
+    elif write_type=='a':
+        fp=open(data_name_txt,'a')
+        
     for i in range(len(python_data)):
         fp.write('!index:{} city:{};\n'.format(i+1,python_data[i][0]))
         #注明序号和城市名
         fp.write('{}\n'.format(python_data[i][1]))
     fp.close()
 
-def _write_lingo_cij(data_name_txt,city_list):
-    fp=open(data_name_txt,'w')
-    fp.write('!此文件为lingo输入数据文件，"!"为注释行;\n!数据为城市到四个销地的总运费;\n!单位：万元/万辆;\n\n')
+def _write_lingo_cij(data_name_txt,city_list,write_type='w'):
+    if write_type=='w':
+        fp=open(data_name_txt,'w')
+        fp.write('!此文件为lingo输入数据文件，"!"为注释行;\n!数据为城市到四个销地的总运费;\n!单位：万元/万辆;\n\n')
+    elif write_type=='a':
+        fp=open(data_name_txt,'a')
     demand_city=['北京','上海','广州','南京']
     
     def _write(one_city_4demand):
@@ -455,8 +455,6 @@ def _write_lingo_cij(data_name_txt,city_list):
     fp.close()
 ########################################################
 
-
-
 ########################################################
             
 ########################################################
@@ -465,8 +463,10 @@ if __name__=='__main__':
     mark_size='mid'
     #large mid small
     
+    
     #mark_the_cities('Final_city.png','the_city.txt',creat_new=True)
-    #deal_with_lingo_data('landPrice.txt')
-    mark_the_cities('All_city.png','all_city.txt',creat_new=True)
+    #deal_with_lingo_data('landPrice.txt',write_type='a')
+    #mark_the_cities('All_city.png','all_city.txt',creat_new=True)
 
 
+    pass
