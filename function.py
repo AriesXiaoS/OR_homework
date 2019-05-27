@@ -337,7 +337,7 @@ def mark_the_cities(pic_name,city_txt,creat_new=False):
     city_list=_get_all_city(city_txt)
     _mark_all_city(city_list,pic_name)
 ########################################################
-def deal_with_lingo_data(landPrice_txt,write_type='w'):
+def deal_with_lingo_data(landPrice_txt,write_type='w',start_number=1):
     """
     ###
     将landPrice.txt文件中的城市及地价和面积做成lingo可以读取的txt文件格式
@@ -383,8 +383,8 @@ def deal_with_lingo_data(landPrice_txt,write_type='w'):
             construction_price.append((one_city[0],price))
             city_list.append(one_city[0])
         ##
-    _write_lingo_data('lingo_factory_supply.txt',factory_supply,write_type=write_type)
-    _write_lingo_data('lingo_construction_price.txt',construction_price,write_type=write_type)
+    _write_lingo_data('lingo_factory_supply.txt',factory_supply,write_type=write_type,start_number=start_number)
+    _write_lingo_data('lingo_construction_price.txt',construction_price,write_type=write_type,start_number=start_number)
     _write_lingo_cij('lingo_transportation_cij.txt',city_list,write_type=write_type)
     n=0
     lingo_k=[]
@@ -393,7 +393,7 @@ def deal_with_lingo_data(landPrice_txt,write_type='w'):
         k='{:.4f}'.format(k)
         lingo_k.append((construction_price[n][0],k))
         n=n+1
-    _write_lingo_data('lingo_k.txt',lingo_k,write_type=write_type)
+    _write_lingo_data('lingo_k.txt',lingo_k,write_type=write_type,start_number=start_number)
     #lingo_k为每万辆的工程建设成本
     fp=open('all_city.txt','w')
     city_set=set(city_list)
@@ -402,7 +402,7 @@ def deal_with_lingo_data(landPrice_txt,write_type='w'):
     fp.close()
     
 
-def _write_lingo_data(data_name_txt,python_data,write_type='w'):
+def _write_lingo_data(data_name_txt,python_data,write_type='w',start_number=1):
     """
     python_data为列表，每个列表元素为(城市名,data)
     """
@@ -413,7 +413,8 @@ def _write_lingo_data(data_name_txt,python_data,write_type='w'):
         fp=open(data_name_txt,'a')
         
     for i in range(len(python_data)):
-        fp.write('!index:{} city:{};\n'.format(i+1,python_data[i][0]))
+        fp.write('!index:{} city:{};\n'.format(start_number,python_data[i][0]))
+        start_number += 1
         #注明序号和城市名
         fp.write('{}\n'.format(python_data[i][1]))
     fp.close()
@@ -460,13 +461,12 @@ def _write_lingo_cij(data_name_txt,city_list,write_type='w'):
 ########################################################
 if __name__=='__main__':
     global mark_size
-    mark_size='mid'
+    mark_size='large'
     #large mid small
     
-    
     #mark_the_cities('Final_city.png','the_city.txt',creat_new=True)
-    #deal_with_lingo_data('landPrice.txt',write_type='a')
-    #mark_the_cities('All_city.png','all_city.txt',creat_new=True)
+    #deal_with_lingo_data('add_city.txt',write_type='a',start_number=115)
+    mark_the_cities('All_city_1year.png','all_city.txt',creat_new=True)
 
-
+    print('all finished')
     pass

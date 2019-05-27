@@ -230,3 +230,91 @@
 0.9545
 !index:114 city:贺州;
 0.9497
+!index:115 city:泰州;
+1.3379
+!index:116 city:泰州;
+0.9673
+!index:117 city:无锡;
+0.2876
+!index:118 city:无锡;
+1.4503
+!index:119 city:无锡;
+0.7073
+!index:120 city:河源;
+1.1109
+!index:121 city:河源;
+0.7195
+!index:122 city:惠州;
+1.2338
+!index:123 city:惠州;
+1.5917
+!index:124 city:江门;
+0.4155
+!index:125 city:江门;
+1.2822
+!index:126 city:云浮;
+8.6269
+!index:127 city:云浮;
+0.7812
+!index:128 city:云浮;
+1.9270
+!index:129 city:梧州;
+2.0221
+!index:130 city:梧州;
+2.4454
+!index:131 city:张家口;
+3.2121
+!index:132 city:张家口;
+0.5283
+!index:133 city:湖州;
+0.6937
+!index:134 city:湖州;
+0.3847
+!index:135 city:嘉兴;
+1.6561
+!index:136 city:嘉兴;
+0.9285
+!index:115 city:泰州;
+1.3379
+!index:116 city:泰州;
+0.9673
+!index:117 city:无锡;
+0.2876
+!index:118 city:无锡;
+1.4503
+!index:119 city:无锡;
+0.7073
+!index:120 city:河源;
+1.1109
+!index:121 city:河源;
+0.7195
+!index:122 city:惠州;
+1.2338
+!index:123 city:惠州;
+1.5917
+!index:124 city:江门;
+0.4155
+!index:125 city:江门;
+1.2822
+!index:126 city:云浮;
+8.6269
+!index:127 city:云浮;
+0.7812
+!index:128 city:云浮;
+1.9270
+!index:129 city:梧州;
+2.0221
+!index:130 city:梧州;
+2.4454
+!index:131 city:张家口;
+3.2121
+!index:132 city:张家口;
+0.5283
+!index:133 city:湖州;
+0.6937
+!index:134 city:湖州;
+0.3847
+!index:135 city:嘉兴;
+1.6561
+!index:136 city:嘉兴;
+0.9285

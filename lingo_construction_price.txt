@@ -230,3 +230,91 @@
 4406.9098
 !index:114 city:贺州;
 4389.2023
+!index:115 city:泰州;
+7005.7462
+!index:116 city:泰州;
+5746.6538
+!index:117 city:无锡;
+1802.5615
+!index:118 city:无锡;
+9088.7385
+!index:119 city:无锡;
+4833.2923
+!index:120 city:河源;
+4939.9692
+!index:121 city:河源;
+3261.3077
+!index:122 city:惠州;
+6863.8769
+!index:123 city:惠州;
+10636.0923
+!index:124 city:江门;
+2469.4154
+!index:125 city:江门;
+7410.5692
+!index:126 city:云浮;
+42501.1077
+!index:127 city:云浮;
+3757.8708
+!index:128 city:云浮;
+9320.6385
+!index:129 city:梧州;
+9319.3385
+!index:130 city:梧州;
+16026.3538
+!index:131 city:张家口;
+16162.7000
+!index:132 city:张家口;
+3333.0154
+!index:133 city:湖州;
+3714.6231
+!index:134 city:湖州;
+2051.5385
+!index:135 city:嘉兴;
+9947.5077
+!index:136 city:嘉兴;
+5629.6692
+!index:115 city:泰州;
+7005.7462
+!index:116 city:泰州;
+5746.6538
+!index:117 city:无锡;
+1802.5615
+!index:118 city:无锡;
+9088.7385
+!index:119 city:无锡;
+4833.2923
+!index:120 city:河源;
+4939.9692
+!index:121 city:河源;
+3261.3077
+!index:122 city:惠州;
+6863.8769
+!index:123 city:惠州;
+10636.0923
+!index:124 city:江门;
+2469.4154
+!index:125 city:江门;
+7410.5692
+!index:126 city:云浮;
+42501.1077
+!index:127 city:云浮;
+3757.8708
+!index:128 city:云浮;
+9320.6385
+!index:129 city:梧州;
+9319.3385
+!index:130 city:梧州;
+16026.3538
+!index:131 city:张家口;
+16162.7000
+!index:132 city:张家口;
+3333.0154
+!index:133 city:湖州;
+3714.6231
+!index:134 city:湖州;
+2051.5385
+!index:135 city:嘉兴;
+9947.5077
+!index:136 city:嘉兴;
+5629.6692
