@@ -318,7 +318,7 @@ def _get_all_city(txt_name):
     city_list=[]
     cities=fp.readlines()
     for city in cities:
-        city_list.append(city.split(',')[0])
+        city_list.append(city.split(' ')[0])
     return city_list
     
 def mark_the_cities(pic_name,city_txt,creat_new=False):
@@ -464,9 +464,10 @@ if __name__=='__main__':
     mark_size='large'
     #large mid small
     
-    #mark_the_cities('Final_city.png','the_city.txt',creat_new=True)
+    #mark_the_cities('All_city.png','landPrice.txt',creat_new=True)
+
     #deal_with_lingo_data('landPrice.txt',write_type='w',start_number=1)
-    mark_the_cities('All_city_50year_limited_area.png','All_city_50year_limited_area.txt',creat_new=True)
+    mark_the_cities('area_limited/50years_limited_area.png','area_limited/city_50years.txt',creat_new=True)
 
     print('all finished')
     pass

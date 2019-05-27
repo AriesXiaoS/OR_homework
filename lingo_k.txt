@@ -274,3 +274,61 @@
 6006.5864
 !index:136 city:嘉兴;
 6063.1871
+!index:137 city:石家庄;
+5194.1488
+!index:138 city:石家庄;
+5315.6074
+!index:139 city:衡水;
+4758.8208
+!index:140 city:衡水;
+5492.9231
+!index:141 city:衡水;
+4758.6269
+!index:142 city:邢台;
+4959.9802
+!index:143 city:邢台;
+5813.0224
+!index:144 city:邢台;
+5713.7756
+!index:145 city:忻州;
+4852.9161
+!index:146 city:忻州;
+4724.2638
+!index:147 city:忻州;
+4732.1424
+!index:148 city:朔州;
+4548.3538
+!index:149 city:朔州;
+4496.6712
+!index:150 city:大同;
+4641.8047
+!index:151 city:大同;
+9581.7745
+!index:152 city:大同;
+4641.7631
+!index:153 city:大同;
+4641.8349
+!index:154 city:阳泉;
+9341.3456
+!index:155 city:阳泉;
+5648.0943
+!index:156 city:长治;
+5803.0619
+!index:157 city:长治;
+5789.0799
+!index:158 city:临汾;
+4783.9379
+!index:159 city:吕梁;
+5110.9684
+!index:160 city:吕梁;
+6744.9713
+!index:161 city:济南;
+14188.9652
+!index:162 city:济南;
+5951.9045
+!index:163 city:泰安;
+4771.5054
+!index:164 city:泰安;
+4771.2147
+!index:165 city:泰安;
+4771.6728

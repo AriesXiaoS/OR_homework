@@ -274,3 +274,61 @@
 1.6561
 !index:136 city:嘉兴;
 0.9285
+!index:137 city:石家庄;
+1.7924
+!index:138 city:石家庄;
+0.8290
+!index:139 city:衡水;
+1.1875
+!index:140 city:衡水;
+3.8625
+!index:141 city:衡水;
+1.5662
+!index:142 city:邢台;
+2.6829
+!index:143 city:邢台;
+1.3781
+!index:144 city:邢台;
+0.5192
+!index:145 city:忻州;
+2.2762
+!index:146 city:忻州;
+2.5056
+!index:147 city:忻州;
+0.5210
+!index:148 city:朔州;
+0.4308
+!index:149 city:朔州;
+1.0676
+!index:150 city:大同;
+4.0878
+!index:151 city:大同;
+1.9756
+!index:152 city:大同;
+3.4212
+!index:153 city:大同;
+2.0785
+!index:154 city:阳泉;
+0.8087
+!index:155 city:阳泉;
+2.9676
+!index:156 city:长治;
+6.5811
+!index:157 city:长治;
+0.6220
+!index:158 city:临汾;
+0.6041
+!index:159 city:吕梁;
+0.4433
+!index:160 city:吕梁;
+0.2784
+!index:161 city:济南;
+0.9171
+!index:162 city:济南;
+0.7234
+!index:163 city:泰安;
+3.2330
+!index:164 city:泰安;
+0.4872
+!index:165 city:泰安;
+0.7371
