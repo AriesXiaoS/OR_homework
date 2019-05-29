@@ -17,7 +17,7 @@ big homework of Operations Research in 2019 in Tongji University
 这四个城市作为中国主要大都市，车牌的限购政策已经或者在不久后肯定都会实施，所以假设在未来的每年的年需求量都一样
 #### 具体数据来源（于前期思路word文档中）
 从百度查询到2017中国各主要城市汽车保有量
-> 未找到2018年数据
+> (因为未找到2018年数据，所以使用2017年的数据)   
 > https://baijiahao.baidu.com/s?id=1595539728686322152&wfr=spider&for=pc
 
 分别获得这四个城市的2017汽车总量
