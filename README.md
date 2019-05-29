@@ -39,7 +39,7 @@ big homework of Operations Research in 2019 in Tongji University
 ##### 城市选择
 在调用高德API静态地图缩放级别room=5的地图上
 中国中部、东部显示的绝大部分城市
-> All_city.png
+![Image text](https://github.com/AriesXiaoS/OR_homework/blob/master/All_city.png)
 
 ##### 具体价格
 查询每个城市的土地出让公告，随机挑选最近发布的两到三个，面积大于一万平方米的土地，
