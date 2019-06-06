@@ -43,7 +43,8 @@ big homework of Operations Research in 2019 in Tongji University
 ![Image text](https://github.com/AriesXiaoS/OR_homework/blob/master/All_city.png)
 
    ##### 具体价格
-查询每个城市的土地出让公告，随机挑选最近发布的两到三个，面积大于一万平方米的土地，
+查询每个城市的土地出让公告，随机挑选最近发布的两到三个，面积大于一万平方米的土地
+> 简化模型->随机选择土地数据，不考虑地价选择优化
 记录土地总面积，土地起始价
 其中假设土地起始价直接作为土地价格
 
