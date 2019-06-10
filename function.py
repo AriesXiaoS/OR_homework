@@ -471,7 +471,7 @@ if __name__=='__main__':
 
     #deal_with_lingo_data('landPrice.txt',write_type='w',start_number=1)
     
-    #mark_the_cities('area_limited/50years_limited_area.png','area_limited/city_50years.txt',creat_new=True)
+    #mark_the_cities('area_limited/50years_cities.png','area_limited/city_50years.txt',creat_new=True)
 
     print('all finished')
     pass
