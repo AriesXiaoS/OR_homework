@@ -462,12 +462,16 @@ def _write_lingo_cij(data_name_txt,city_list,write_type='w'):
 if __name__=='__main__':
     global mark_size
     mark_size='large'
-    #large mid small
+    """"
+    size可选:
+    large mid small
+    """
     
     #mark_the_cities('All_city.png','landPrice.txt',creat_new=True)
 
     #deal_with_lingo_data('landPrice.txt',write_type='w',start_number=1)
-    mark_the_cities('area_limited/50years_limited_area.png','area_limited/city_50years.txt',creat_new=True)
+    
+    #mark_the_cities('area_limited/50years_limited_area.png','area_limited/city_50years.txt',creat_new=True)
 
     print('all finished')
     pass
