@@ -2,6 +2,17 @@
 big homework of Operations Research in 2019 in Tongji University
 
 同济大学自动化专业运筹学大作业
+--------------------------
+孙潇 李成希 陈豪 敖正楷
+-----------------
+>主要程序为function.py,  包含爬虫、画图、写入lingo数据所有功能
+
+>问题求解答案在两文件夹中，txt文件为lingo求解结果答案与最终解
+>需去txt文件中寻找相应满足条件的变量
+
+>具体解答展示于ppt中
+
+>其余文件均为功能性文件
 -----------------
 ## 问题重述
 ### 背景
@@ -84,9 +95,6 @@ big homework of Operations Research in 2019 in Tongji University
 
 选择总费用最小者作为这两个城市之间的运输费用
 
-##问题求解
-问题求解答案在两文件夹中，txt文件为lingo求解结果答案
-> 需去txt文件中寻找相应满足条件的变量
 
 
 
