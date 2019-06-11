@@ -84,4 +84,9 @@ big homework of Operations Research in 2019 in Tongji University
 
 选择总费用最小者作为这两个城市之间的运输费用
 
+##问题求解
+问题求解答案在两文件夹中，txt文件为lingo求解结果答案
+> 需去txt文件中寻找相应满足条件的变量
+
+
 
