@@ -6,6 +6,7 @@ big homework of Operations Research in 2019 in Tongji University
 孙潇 李成希 陈豪 敖正楷
 -----------------
 >主要程序为function.py,  包含爬虫、画图、写入lingo数据所有功能
+LingoTry为lingo解答程序，在面积无限制条件下注释掉了工厂面积与总价数据读取，新增了工厂单位地价数据读取
 
 >问题求解答案在两文件夹中，txt文件为lingo求解结果答案与最终解
 >需去txt文件中寻找相应满足条件的变量
